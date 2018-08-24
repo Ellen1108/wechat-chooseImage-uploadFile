@@ -1,0 +1,23 @@
+<view class='up_image'>
+  <view bindtap="upload">上传图片</view>
+
+  <view class='image-item'  wx:for="{{tempFilePaths}}" wx:key="{{index}}" >
+    <image class='image' src='{{item}}' data-index="{{index}}"></image>
+     <!-- 删除按钮 -->
+    <view class='dele_item' bindtap='dele_image'>X</view>
+  </view>
+
+</view>
+<view class='up_video'>
+  <view bindtap='addVideo'>上传视频</view>
+
+  <view class='video-item' wx:for="{{videoPaths}}" wx:key="{{index}}" >
+    <video src='{{item}}' data-index="{{index}}"></video>
+    <!-- 删除视频的按钮 -->
+    <view class='dele_item' bindtap='dele_video'>X</view>
+  </view>
+
+</view>
+
+
+

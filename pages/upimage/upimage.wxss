@@ -1,0 +1,27 @@
+/* pages/upimage/upimage.wxss */
+.up_image,.up_video{
+  text-align: center;
+  font-size: 0.8rem;
+  width: 100%;
+  margin: 10% auto;
+}
+.image{
+  width: 5rem;
+  height: 5rem;
+  display: inline-block;
+  margin: 0.8rem;
+}
+.video-item,.image-item{
+  position: relative;
+}
+.dele_item{
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  color: #fff;
+  background:red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
